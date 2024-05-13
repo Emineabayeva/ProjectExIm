@@ -1,0 +1,44 @@
+.header-start{
+    background-color: #f9f9ff;
+}
+
+.header-start ul{
+display: flex;
+}
+.header-list li{
+    padding: 15px 15px;
+    cursor: pointer;
+}
+.header-list ul li,a{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 600;
+    color: #222;
+    
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-left a{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 600;
+    color: #222;
+}
+.header-end{
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+ 
+}
+.header-end-right nav ul, li{
+    display: flex;
+    gap: 20px;
+}
+.header-logo{
+    margin-top: 10px;
+ margin-left: 80px;
+}
